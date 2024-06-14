@@ -21,6 +21,9 @@ Upcoming Release
 
 * Partially revert https://github.com/PyPSA/pypsa-eur/pull/967 to return to old grouping year logic (which was mostly correct)
 
+* Allow running the sector model for isolated non-EU28 countries, by filling missing sectoral
+  data with defaults, average EU values or zeros, if not available.
+
 
 PyPSA-Eur 0.11.0 (25th May 2024)
 =====================================
